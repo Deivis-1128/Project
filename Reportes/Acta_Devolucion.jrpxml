@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="Acta_Devolucion" pageWidth="612" pageHeight="792" topMargin="20" leftMargin="20" bottomMargin="20" rightMargin="20" locale="es_ES" timezone="America/Bogota">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="1"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<page>
+		<text textAlignment="Center" textHeight="17.609375" lineSpacingFactor="1.2578125" leadingOffset="-3.0761719">
+			<reportElement uuid="55f55821-5516-44b3-8de7-2cfe8c36d933" x="193" y="20" width="287" height="20" origin="0" srcId="1" printId="1"/>
+			<font size="14" isBold="true"/>
+			<textContent><![CDATA[ACTA DE DEVOLUCIÓN EQUIPO]]></textContent>
+		</text>
+		<image scaleImage="RetainShape">
+			<reportElement uuid="d42218c1-bd11-4020-87af-05fc593cf003" x="21" y="20" width="154" height="16" origin="0" srcId="2" printId="1"/>
+			<imageSource isEmbedded="true">
+				<![CDATA[iVBORw0KGgoAAAANSUhEUgAAAPIAAAAeCAYAAAAW7kNdAAAFe0lEQVR4Xq3OO4pFMQwE0bv/Tc9E
+Dt6BwhaooIP+WPj7W+b7vh+Zi/vpzn15Vb1UX/m0F9+5q1zs9XK7W7m4e7077c2VmOvNqz+4c1/e
+fIv1i/VhvbkSe+VOr6qX6iuf9uI7d5WLvV5udysXd693p725EnO9efUHd+7Lm2+xfrE+rDdXYq/c
+6VX1Un3l0158565ysdfL7W7l4u717rQ3V2KuN6/+4M59efMt1i/Wh/XmSuyVO72qXqqvfNqL79xV
+LvZ6ud2tXNy93p325krM9ebVH9y5L2++xfrF+rDeXIm9cqdX1Uv1lU978Z27ysVeL7e7lYu717vT
+3lyJud68+oM79+XNt1i/WB/WmyuxV+70qnqpvvJpL75zV7nY6+V2t3Jx93p32psrMdebV39w5768
++RbrF+vDenMl9sqdXlUv1Vc+7cV37ioXe73c7lYu7l7vTntzJeZ68+oP7tyXN99i/WJ9WG+uxF65
+06vqpfrKp734zl3lYq+X293Kxd3r3WlvrsRcb179wZ378uZbrF+sD+vNldgrd3pVvVRf+bQX37mr
+XOz1crtbubh7vTvtzZWY682rP7hzX958i/WL9WG9uRJ75U6vqpfqK5/24jt3lYu9Xm53Kxd3r3en
+vbkSc7159Qd37subb7F+sT6sN1dir9zpVfVSfeXTXnznrnKx18vtbuXi7vXutDdXYq43r/7gzn15
+8y3WL9aH9eZK7JU7vapeqq982ovv3FUu9nq53a1c3L3enfbmSsz15tUf3Lkvb77F+sX6sN5cib1y
+p1fVS/WVT3vxnbvKxV4vt7uVi7vXu9PeXIm53rz6gzv35c23WL9YH9abK7FX7vSqeqm+8mkvvnNX
+udjr5Xa3cnH3enfamysx15tXf3Dnvrz5FusX68N6cyX2yp1eVS/VVz7txXfuKhd7vdzuVi7uXu9O
+e3Ml5nrz6g/u3Jc332L9Yn1Yb67EXrnTq+ql+sqnvfjOXeVir5fb3crF3evdaW+uxFxvXv3Bnfvy
+5lusX6wP682V2Ct3elW9VF/5tBffuatc7PVyu1u5uHu9O+3NlZjrzas/uHNf3nyL9Yv1Yb25Envl
+Tq+ql+orn/biO3eVi71ebncrF3evd6e9uRJzvXn1B3fuy5tvsX6xPqw3V2Kv3OlV9VJ95dNefOeu
+crHXy+1u5eLu9e60N1dirjev/uDOfXnzLdYv1of15krslTu9ql6qr3zai+/cVS72erndrVzcvd6d
+9uZKzPXm1R/cuS9vvsX6xfqw3lyJvXKnV9VL9ZVPe/Gdu8rFXi+3u5WLu9e7095cibnevPqDO/fl
+zbdYv1gf1psrsVfu9Kp6qb7yaS++c1e52Ovldrdycfd6d9qbKzHXm1d/cOe+vPkW6xfrw3pzJfbK
+nV5VL9VXPu3Fd+4qF3u93O5WLu5e7057cyXmevPqD+7clzffYv1ifVhvrsReudOr6qX6yqe9+M5d
+5WKvl9vdysXd691pb67EXG9e/cGd+/LmW6xfrA/rzZXYK3d6Vb1UX/m0F9+5q1zs9XK7W7m4e707
+7c2VmOvNqz+4c1/efIv1i/VhvbkSe+VOr6qX6iuf9uI7d5WLvV5udysXd693p725EnO9efUHd+7L
+m2+xfrE+rDdXYq/c6VX1Un3l0158565ysdfL7W7l4u717rQ3V2KuN6/+4M59efMt1i/Wh/XmSuyV
+O72qXqqvfNqL79xVLvZ6ud2tXNy93p325krM9ebVH9y5L2++xfrF+rDeXIm9cqdX1Uv1lU978Z27
+ysVeL7e7lYu717vT3lyJud68+oM79+XNt1i/WB/WmyuxV+70qnqpvvJpL75zV7nY6+V2t3Jx93p3
+2psrMdebV39w5768+Rb/rKow7lRou+YAAAAASUVORK5CYII=]]>
+			</imageSource>
+		</image>
+		<text textAlignment="Center" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="e3350198-e1fb-4030-a598-2b3c5f149fce" x="39" y="38" width="68" height="16" origin="0" srcId="3" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[120406102]]></textContent>
+		</text>
+		<text textHeight="35.21875" lineSpacingFactor="1.2578125" leadingOffset="-6.1523438">
+			<reportElement uuid="f57c36fd-2fdf-4add-a4d3-43da16d34338" x="23" y="61" width="86" height="37" origin="1" srcId="4" printId="1"/>
+			<font size="28" isBold="true"/>
+			<textContent><![CDATA[TEKNI]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="1242b683-54ff-492d-b28f-f8251edbec4f" x="26" y="128" width="42" height="15" origin="1" srcId="5" printId="1"/>
+			<font size="10" isBold="true"/>
+			<textContent><![CDATA[Fecha:]]></textContent>
+		</text>
+		<image scaleImage="FillFrame" hAlign="Left" vAlign="Top">
+			<reportElement uuid="37b78286-0438-4c18-8413-2dd34f3e681f" x="333" y="61" width="259" height="106" origin="1" srcId="6" printId="2"/>
+			<box>
+				<pen lineWidth="0.0"/>
+				<topPen lineWidth="0.0"/>
+				<leftPen lineWidth="0.0"/>
+				<bottomPen lineWidth="0.0"/>
+				<rightPen lineWidth="0.0"/>
+			</box>
+			<imageSource isEmbedded="true">
+				<![CDATA[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]]>
+			</imageSource>
+		</image>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="e98795a4-a1a0-484e-b2b3-496b5e0f0b3a" x="26" y="98" width="142" height="15" origin="1" srcId="7" printId="1"/>
+			<font size="10" isBold="true"/>
+			<textContent><![CDATA[Matrials Science Solutions]]></textContent>
+		</text>
+		<text textHeight="35.21875" lineSpacingFactor="1.2578125" leadingOffset="-6.1523438">
+			<reportElement uuid="b5daaf7e-93e6-4ffb-9abe-619376b47ca2" x="107" y="61" width="86" height="37" forecolor="#0000FF" origin="1" srcId="8" printId="1"/>
+			<font size="28" isBold="true"/>
+			<textContent><![CDATA[PLEX]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="600d77da-4b61-4d16-a973-981f511980e0" x="26" y="143" width="50" height="15" origin="1" srcId="9" printId="1"/>
+			<font size="10" isBold="true"/>
+			<textContent><![CDATA[Empresa:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="01426507-d9b4-45c1-8ee4-508491e83c66" x="26" y="113" width="42" height="15" origin="1" srcId="10" printId="1"/>
+			<font size="10" isBold="true"/>
+			<textContent><![CDATA[Ciudad:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="5c2d37b0-df4c-47c3-b479-8f67e53855ff" x="65" y="113" width="100" height="15" origin="1" srcId="11" printId="1"/>
+			<textContent><![CDATA[Bogotá]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="eeb4fbb6-fa7f-400c-b6b7-d93f96ac7aee" x="76" y="143" width="258" height="15" origin="1" srcId="12" printId="1"/>
+			<textContent><![CDATA[GP SERVICIOS COMPARTIDOS S.A.S.]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="EEEEE dd MMMMM yyyy">
+			<reportElement uuid="b2dfec6d-5142-46eb-b279-618ed3caf5ca" x="71" y="128" width="100" height="16" origin="1" srcId="13" printId="1"/>
+			<textContent><![CDATA[jueves 20 julio 2023]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="efe3af56-2db9-4fcc-a4a6-d3e543a4252b" x="171" y="197" width="52" height="16" forecolor="#3333FF" origin="2" srcId="14" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Apellido:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="a7ff1257-9edb-4d15-b394-7bc1778a1fd7" x="334" y="197" width="46" height="16" forecolor="#3333FF" origin="2" srcId="15" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Cedula:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="bd9cf79f-8a9f-40fe-bfd5-4832d0812114" x="324" y="212" width="80" height="16" forecolor="#3333FF" origin="2" srcId="16" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Dependencia:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="e81da8de-437e-4072-bdf6-372964a3bd6a" x="24" y="197" width="50" height="16" forecolor="#3333FF" origin="2" srcId="17" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Nombre:]]></textContent>
+		</text>
+		<text verticalAlignment="Bottom" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="e6456442-6924-4d2b-bf93-2ebfe87b3478" x="24" y="177" width="194" height="20" origin="2" srcId="18" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[DATOS DEL EMPLEADO.]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="4d15c1dd-eb40-4abc-800d-b061ffcbbbb1" x="269" y="212" width="21" height="16" forecolor="#3333FF" origin="2" srcId="19" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Do:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="f9676ac5-8cbb-48b4-8841-e2d985d70388" x="24" y="212" width="112" height="16" forecolor="#3333FF" origin="2" srcId="20" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Correo electronico:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="79d80387-6df3-43d1-95a3-f513898dc7f2" x="465" y="197" width="56" height="16" forecolor="#3333FF" origin="2" srcId="21" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Telefono:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="ec36e2c9-23b0-4591-b6f5-fa5c79a7c5ca" x="345" y="264" width="48" height="16" forecolor="#3333FF" origin="2" srcId="22" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Codigo:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="8cbdb49c-aac3-495c-b0e7-e7af3d305a5c" x="220" y="264" width="48" height="16" forecolor="#3333FF" origin="2" srcId="23" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Modelo:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="ec198984-afaa-4e9a-a4bc-4fa8d0cfcafc" x="455" y="264" width="39" height="16" forecolor="#3333FF" origin="2" srcId="24" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Serial:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="123abb6b-73e2-48db-99dc-2ab3d2256b6e" x="161" y="284" width="105" height="16" forecolor="#3333FF" origin="2" srcId="25" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Almacenamiento: ]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="c00b2443-0c37-4ac7-bc78-11bdac9694ec" x="24" y="264" width="38" height="16" forecolor="#3333FF" origin="2" srcId="26" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Clase: ]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="dd8b0f2c-b763-4590-9ecc-bab6682015ac" x="318" y="284" width="32" height="16" forecolor="#3333FF" origin="2" srcId="27" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Ram: ]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="b0f8483d-0541-4eff-b79f-dbeb733f01dc" x="121" y="264" width="40" height="16" forecolor="#3333FF" origin="2" srcId="28" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Marca:]]></textContent>
+		</text>
+		<text verticalAlignment="Bottom" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="7368e4a0-0e71-40d8-96b0-63beab5a09fb" x="24" y="244" width="284" height="20" origin="2" srcId="29" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[CARACTERISTICAS DEL EQUIPO:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="528ef743-0922-4609-be5d-64669039a5ac" x="402" y="284" width="65" height="16" forecolor="#3333FF" origin="2" srcId="30" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Hostname:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="1c29e9c4-0dc9-4d13-9a19-b6d906a09ede" x="24" y="284" width="30" height="16" forecolor="#3333FF" origin="2" srcId="31" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Cpu: ]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="ea30ca9e-b58e-4d73-9ad2-2f48ca2135d4" x="75" y="197" width="88" height="16" origin="2" srcId="32" printId="1"/>
+			<textContent><![CDATA[Deivis]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="544d33f5-82c9-4c64-9619-80b2c5e78420" x="224" y="197" width="100" height="16" origin="2" srcId="33" printId="1"/>
+			<textContent><![CDATA[Davila Camelo]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="ca95aadc-254c-418d-a60d-9337ee0f16ca" x="380" y="197" width="100" height="16" origin="2" srcId="34" printId="1"/>
+			<textContent><![CDATA[1002474228]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="a8b299be-8c7a-46bd-a7d1-3543a5e4bd33" x="521" y="197" width="71" height="16" origin="2" srcId="35" printId="1"/>
+			<textContent><![CDATA[3142224843]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="d5932a9b-1353-45a0-9172-a3fa0761ef12" x="136" y="213" width="130" height="16" origin="2" srcId="36" printId="1"/>
+			<textContent><![CDATA[deivisdj19@gmail.com]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="9cce96d5-bd49-4ad4-9fed-dade606e647a" x="290" y="213" width="34" height="16" origin="2" srcId="37" printId="1"/>
+			<textContent><![CDATA[6335]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="dd6825c7-ba86-4704-b2ad-711944c99413" x="404" y="213" width="169" height="16" origin="2" srcId="38" printId="1"/>
+			<textContent><![CDATA[IT]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="ad5ab71f-0e13-4f50-b6e9-cea7a11af22d" x="62" y="264" width="49" height="16" origin="2" srcId="39" printId="1"/>
+			<textContent><![CDATA[Portatil]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="1c361cff-c326-440b-8a5a-9c59d88a1d33" x="160" y="264" width="58" height="16" origin="2" srcId="40" printId="1"/>
+			<textContent><![CDATA[Lenovo]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="d445eab4-e67c-4541-8682-df495afaf0be" x="268" y="264" width="78" height="16" origin="2" srcId="41" printId="1"/>
+			<textContent><![CDATA[ThinkPad]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="c2bd0bb0-00ac-49c1-a3ec-167b6b3db2f0" x="393" y="264" width="57" height="16" origin="2" srcId="42" printId="1"/>
+			<textContent><![CDATA[151593]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="4698b17c-eea8-4fcb-a7a8-09af07c600aa" x="494" y="264" width="100" height="16" origin="2" srcId="43" printId="1"/>
+			<textContent><![CDATA[PF380JNZ]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="b33c9f7c-f9c6-4bc7-a7e1-c75a3bc9af42" x="54" y="284" width="100" height="16" origin="2" srcId="44" printId="1"/>
+			<textContent><![CDATA[ Core i5-1135G7.]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="3def0bc5-8953-4854-a152-8f2ead438bd1" x="266" y="284" width="39" height="16" origin="2" srcId="45" printId="1"/>
+			<textContent><![CDATA[512. GB ]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="acf42a04-afa1-4b11-85f5-7d959b3a6c1c" x="350" y="284" width="57" height="16" origin="2" srcId="46" printId="1"/>
+			<textContent><![CDATA[16. GB]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="26daaaeb-e5c0-4326-8465-c80c1875ce22" x="467" y="284" width="100" height="16" origin="2" srcId="47" printId="1"/>
+			<textContent><![CDATA[LW10MGODOY]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="96d9d366-47fa-468f-a562-3a577d5fd668" x="24" y="305" width="114" height="16" forecolor="#0000FF" origin="2" srcId="48" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Sistema operativo:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="cf08d9f0-db81-4ae1-b105-6be5a2603abc" x="136" y="305" width="155" height="16" origin="2" srcId="49" printId="1"/>
+			<textContent><![CDATA[Windows 10 Pro.22H2.]]></textContent>
+		</text>
+		<text textHeight="0.0">
+			<reportElement uuid="1f41fc10-49d2-4f07-b7fa-86e64b075d49" x="20" y="197" width="571" height="32" forecolor="#0000FF" origin="2" srcId="50" printId="1"/>
+			<box leftPadding="4">
+				<pen lineWidth="1.0"/>
+				<topPen lineWidth="1.0"/>
+				<leftPen lineWidth="1.0"/>
+				<bottomPen lineWidth="1.0"/>
+				<rightPen lineWidth="1.0"/>
+			</box>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<text textHeight="0.0">
+			<reportElement uuid="b5d2740e-bc97-4631-bb16-a1aa5bedcc13" x="21" y="264" width="571" height="60" origin="2" srcId="51" printId="1"/>
+			<box>
+				<pen lineWidth="1.0" lineColor="#0000FF"/>
+				<topPen lineWidth="1.0" lineColor="#0000FF"/>
+				<leftPen lineWidth="1.0" lineColor="#0000FF"/>
+				<bottomPen lineWidth="1.0" lineColor="#0000FF"/>
+				<rightPen lineWidth="1.0" lineColor="#0000FF"/>
+			</box>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<text textHeight="0.0">
+			<reportElement uuid="6af7dea3-d766-48d4-89b7-17936bcfa8cb" x="21" y="357" width="443" height="81" origin="2" srcId="52" printId="1"/>
+			<box>
+				<pen lineWidth="1.0" lineColor="#0000FF"/>
+				<topPen lineWidth="1.0" lineColor="#0000FF"/>
+				<leftPen lineWidth="1.0" lineColor="#0000FF"/>
+				<bottomPen lineWidth="1.0" lineColor="#0000FF"/>
+				<rightPen lineWidth="1.0" lineColor="#0000FF"/>
+			</box>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<text textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="89734a89-fffa-4286-85db-41123978baac" x="24" y="340" width="114" height="16" origin="2" srcId="53" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[OBSRVACIONES.]]></textContent>
+		</text>
+		<text textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="bb6b7fb6-c764-4d22-88f8-6bd7868f407f" x="482" y="464" width="85" height="16" origin="2" srcId="54" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Firma Digital:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="82fbd48a-44e8-4f08-8592-fc00762200db" x="482" y="480" width="25" height="16" origin="2" srcId="55" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[C.c:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="055aa79e-3255-42e9-985a-f3b92eab9980" x="21" y="454" width="50" height="16" origin="2" srcId="56" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Cedula:]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="15.09375" lineSpacingFactor="1.2578125" leadingOffset="-2.6367188">
+			<reportElement uuid="48f125fc-0c3b-4f63-98d1-38f173067485" x="21" y="438" width="53" height="16" origin="2" srcId="57" printId="1"/>
+			<font size="12" isBold="true"/>
+			<textContent><![CDATA[Tecnico:]]></textContent>
+		</text>
+		<text textHeight="0.0">
+			<reportElement uuid="787e2389-535d-42e6-87c5-ab787c5532b2" x="482" y="356" width="77" height="108" origin="2" srcId="58" printId="1"/>
+			<box>
+				<pen lineWidth="1.0" lineColor="#0000FF"/>
+				<topPen lineWidth="1.0" lineColor="#0000FF"/>
+				<leftPen lineWidth="1.0" lineColor="#0000FF"/>
+				<bottomPen lineWidth="1.0" lineColor="#0000FF"/>
+				<rightPen lineWidth="1.0" lineColor="#0000FF"/>
+			</box>
+			<textContent><![CDATA[]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="095620d2-aac1-46b0-9551-ff213fcd4cae" x="507" y="480" width="70" height="16" origin="2" srcId="59" printId="1"/>
+			<textContent><![CDATA[1002474228]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="36c1a3c7-421a-42fb-aed8-bb2dc82ec584" x="74" y="438" width="80" height="16" origin="2" srcId="60" printId="1"/>
+			<textContent><![CDATA[Deivis]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="678ab665-8ce0-4df1-a9c9-c06f11ec465b" x="144" y="438" width="100" height="16" origin="2" srcId="61" printId="1"/>
+			<textContent><![CDATA[Davila Camelo]]></textContent>
+		</text>
+		<text verticalAlignment="Middle" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="0ffcbc88-e85d-4142-b6ed-8186dad0d63a" x="71" y="454" width="78" height="16" origin="2" srcId="62" printId="1"/>
+			<textContent><![CDATA[1002474228]]></textContent>
+		</text>
+		<image scaleImage="FillFrame" hAlign="Left" vAlign="Top">
+			<reportElement uuid="32065a22-a8a1-4c23-a307-7232208737fe" x="482" y="357" width="77" height="107" origin="2" srcId="63" printId="1"/>
+			<imageSource isEmbedded="true">
+				<![CDATA[]]>
+			</imageSource>
+		</image>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="789effab-7930-48b1-b70c-ed7d82eb4f12" x="23" y="357" width="441" height="81" origin="2" srcId="64" printId="1"/>
+			<textContent><![CDATA[El equipo será reasignado]]></textContent>
+		</text>
+		<text textAlignment="Right" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="23270b26-76c7-4d5a-95e2-c0a88ca7d7a1" x="229" y="730" width="80" height="20" origin="3" srcId="65" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[Pagina 1 De]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="aec8d421-5af2-4d5b-b8cf-64a6a4c7d0d1" x="309" y="730" width="40" height="20" origin="3" srcId="66" printId="1"/>
+			<font isBold="true"/>
+			<textContent><![CDATA[ 1]]></textContent>
+		</text>
+	</page>
+</jasperPrint>
